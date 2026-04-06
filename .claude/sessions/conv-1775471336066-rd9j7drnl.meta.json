@@ -1,0 +1,19 @@
+{
+  "id": "conv-1775471336066-rd9j7drnl",
+  "title": "Find tool call documentation for Claude-code-ar...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775471336071,
+  "updatedAt": 1775471364492,
+  "lastResponseAt": 1775471364492,
+  "sessionId": "72d2c976-d3af-4aef-bdd8-44bec7d5c254",
+  "sdkSessionId": "72d2c976-d3af-4aef-bdd8-44bec7d5c254",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
