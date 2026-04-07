@@ -1,12 +1,13 @@
 {
   "id": "conv-1775471336066-rd9j7drnl",
-  "title": "Find tool call documentation for Claude-code-ar...",
-  "titleGenerationStatus": "success",
+  "title": "当然可以，给你一个精简总结版：",
+  "titleGenerationStatus": "failed",
   "createdAt": 1775471336071,
-  "updatedAt": 1775471364492,
-  "lastResponseAt": 1775471364492,
+  "updatedAt": 1775555165007,
+  "lastResponseAt": 1775554973481,
   "sessionId": "72d2c976-d3af-4aef-bdd8-44bec7d5c254",
   "sdkSessionId": "72d2c976-d3af-4aef-bdd8-44bec7d5c254",
+  "currentNote": "harness/docs/zh/s02-tool-use.md",
   "usage": {
     "model": "haiku",
     "inputTokens": 0,

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "langchain/LangChain_Python_v1_2周学习路线.md",
+                "file": "harness/docs/zh/s02-tool-use.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LangChain_Python_v1_2周学习路线"
+              "title": "s02-tool-use"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LangChain_Python_v1_2周学习路线.md",
+                "file": "harness/docs/zh/s02-tool-use.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LangChain_Python_v1_2周学习路线 的大纲"
+              "title": "s02-tool-use 的大纲"
             }
           },
           {
@@ -176,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,13 +195,14 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "9ddd2ee81ca800bf",
+  "active": "be8a3fc03f64fc13",
   "lastOpenFiles": [
+    "harness/docs/zh/s01-the-agent-loop.md",
+    "langchain/LangChain_Python_v1_2周学习路线.md",
     "langchain/index.md",
     "langchain/agent.md",
     "langchain/01-每日学习/2026-04-06-agent-tool-calling-flow.md",
     "Claude-code-architecture-instruction/Tool_architecture.md",
-    "langchain/LangChain_Python_v1_2周学习路线.md",
     "langchain/01-每日学习/2026-04-05-create-agent-minimal-flow.md",
     "Claude-code-architecture-instruction/mcp_architecture.md",
     "langchain/LangChain学习中心.md",
@@ -236,7 +237,6 @@
     "Claude-code-architecture-instruction/extractMemories_prompts_architecture.md",
     "Claude-code-architecture-instruction/extractMemories_architecture.md",
     "Claude-code-architecture-instruction/entrypoint_architecture.md",
-    "Claude-code-architecture-instruction/README.md",
     "Claude-code-architecture-instruction/Harness-Engineering-Architecture.canvas"
   ]
 }

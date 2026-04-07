@@ -99,3 +99,28 @@ python agents/s02_tool_use.py
 2. `Create a file called greet.py with a greet(name) function`
 3. `Edit greet.py to add a docstring to the function`
 4. `Read greet.py to verify the edit worked`
+
+
+## 我的学习过程（可持续更新）
+
+### s02 的核心思想
+- 循环不变，工具可扩展。
+- `agent_loop` 还是 s01 那套，只是把“固定调用 bash”升级成“按工具名分发”。
+
+### 两个核心结构
+- `TOOLS`：给模型看的“工具说明书”（名字、用途、参数 schema）
+- `TOOL_HANDLERS`：给程序用的“执行映射表”（工具名 -> Python 函数）
+
+### 关联关系（最关键）
+- 模型根据 `TOOLS` 生成 `tool_use(name, input)`。
+- 代码用 `name` 去 `TOOL_HANDLERS` 找函数。
+- 用 `input` 调函数（如 `run_bash(kw["command"])`）。
+- 结果包装成 `tool_result` 回喂模型。
+
+### 你已经掌握的重点
+- `name` 必须和 handler key 对齐。
+- `input_schema.required` 保证关键参数不缺失。
+- 新增工具只需加两处：`TOOLS` + `TOOL_HANDLERS`（循环本体不用改）。
+
+### 一句话收尾
+`s01` 是让 Agent 跑起来，`s02` 是让 Agent 以标准化方式长出更多“手脚”。
